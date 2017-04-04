@@ -57,6 +57,7 @@ h2 {
 h3 {
 	font-size: 60px;
 	color: $bluedark;
+	text-transform: capitalize;
 
 	@media screen and (max-width: 500px) {
 		font-size: 30px;
@@ -85,7 +86,7 @@ a {
 
 .section {
 	width: 100%;
-	min-height: 100vh;
+	min-height: 105vh;
 	display: block;
 	display: flex;
 	align-items: center;
@@ -107,7 +108,7 @@ a {
 
 	img { 
 		max-width: 100%;
-		margin: 0;
+		margin: -5px;
 	}
 
 	.img-note {
@@ -184,6 +185,7 @@ a {
 
 
 .bg-blue { background-color: $bluemid; }
+.bg-green { background-color: $green; }
 
 
 .show-all {
@@ -200,7 +202,9 @@ a {
 
 }
 
-
+.text-blue {
+	h2 { color: $bluedark; }
+}
 
 .non-load {
 	position: relative;
