@@ -303,12 +303,13 @@ h2 {
 /* line 57, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 h3 {
   font-size: 60px;
-  color: #2D55CD; }
+  color: #2D55CD;
+  text-transform: capitalize; }
   @media screen and (max-width: 500px) {
     h3 {
       font-size: 30px; } }
 
-/* line 66, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 67, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 p {
   font-size: 18px;
   line-height: 32px;
@@ -319,17 +320,17 @@ p {
       font-size: 16px;
       line-height: 28px; } }
 
-/* line 78, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 79, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 a {
   color: white; }
-  /* line 80, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 81, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   a:hover {
     color: #7700FF; }
 
-/* line 86, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 87, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .section {
   width: 100%;
-  min-height: 100vh;
+  min-height: 105vh;
   display: block;
   display: -webkit-box;
   display: -webkit-flex;
@@ -344,13 +345,13 @@ a {
   -ms-flex-pack: center;
   justify-content: center; }
 
-/* line 95, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 96, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .inner {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center; }
 
-/* line 99, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 100, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .img-wrap {
   max-width: 1000px;
   display: block;
@@ -360,11 +361,11 @@ a {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
   opacity: 0; }
-  /* line 108, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 109, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   .img-wrap img {
     max-width: 100%;
-    margin: 0; }
-  /* line 113, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+    margin: -5px; }
+  /* line 114, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   .img-wrap .img-note {
     width: 100%;
     padding: 10px;
@@ -376,71 +377,75 @@ a {
     margin-top: -5px;
     -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); }
-    /* line 124, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+    /* line 125, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
     .img-wrap .img-note p {
       color: white;
       margin: 0;
       max-width: 1000px; }
   @media screen and (max-width: 500px) {
-    /* line 132, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+    /* line 133, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
     .img-wrap .img-note {
       padding: 6px; }
-    /* line 135, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+    /* line 136, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
     .img-wrap p {
       font-size: 12px; } }
 
-/* line 142, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 143, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .wrap-mini {
   max-width: 375px; }
 
-/* line 146, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 147, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .pallette-1, .pallette-2, .pallette-3, .pallette-4, .pallette-5, .pallette-6 {
   height: 300px;
   width: 25%;
   display: inline-block;
   font-size: 0; }
-  /* line 152, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 153, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   .pallette-1:not(:first-of-type), .pallette-2:not(:first-of-type), .pallette-3:not(:first-of-type), .pallette-4:not(:first-of-type), .pallette-5:not(:first-of-type), .pallette-6:not(:first-of-type) {
     margin-left: -6px; }
 
-/* line 157, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 158, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .pallette-1 {
   background-color: #152A68; }
 
-/* line 161, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 162, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .pallette-2 {
   background-color: #2D55CD; }
 
-/* line 165, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 166, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .pallette-3 {
   width: 15%;
   background-color: #2D8BCD; }
 
-/* line 170, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 171, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .pallette-4 {
   width: 2%;
   background-color: #FF1515; }
 
-/* line 175, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 176, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .pallette-5 {
   width: 20%;
   background-color: white; }
 
-/* line 180, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 181, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .pallette-6 {
   width: 13%;
   background-color: #74BCAD; }
 
-/* line 186, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 187, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .bg-blue {
   background-color: #2D8BCD; }
 
-/* line 189, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 188, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+.bg-green {
+  background-color: #6BD6C3; }
+
+/* line 191, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .show-all {
   overflow: hidden;
   max-height: 0px; }
 
-/* line 194, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 196, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .hide-all {
   position: fixed;
   height: 100%;
@@ -448,12 +453,16 @@ a {
   background: #2D8BCD;
   opacity: 1; }
 
-/* line 205, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 206, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+.text-blue h2 {
+  color: #2D55CD; }
+
+/* line 209, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .non-load {
   position: relative;
   text-align: center;
   height: 50px; }
-  /* line 210, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 214, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   .non-load:before {
     content: "";
     position: absolute;
@@ -470,28 +479,28 @@ a {
     animation: spin 1s linear infinite; }
 
 @-webkit-keyframes spin {
-  /* line 226, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 230, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 227, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 231, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
 @keyframes spin {
-  /* line 226, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 230, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 227, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 231, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
-/* line 234, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+/* line 238, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
 .come-in {
   -webkit-transform: translateY(120px);
   -ms-transform: translateY(120px);
@@ -500,14 +509,14 @@ a {
   animation: come-in 1s ease forwards; }
 
 @-webkit-keyframes come-in {
-  /* line 241, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 245, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   to {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1; } }
 
 @keyframes come-in {
-  /* line 241, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
+  /* line 245, /Users/itomblack/Repos/IDC/src/sass/_home.scss */
   to {
     -webkit-transform: translateY(0);
     transform: translateY(0);
